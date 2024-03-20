@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  openinterpreter:
+    image: openinterpreter
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/files
+    environment:
+      - OPENAI_API_KEY=your-api-key
+    command: interpreter --custom_instructions "Be as concise as possible"
