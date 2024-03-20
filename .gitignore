@@ -1,2 +1,4 @@
 *.dockerignore
 .env
+files/*
+!files/.gitkeep
