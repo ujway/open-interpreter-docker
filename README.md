@@ -1,4 +1,4 @@
-# Open Interpreter with Docker Compose
+# Open Interpreter
 
 This guide provides instructions on how to set up and run Open Interpreter using Docker Compose.
 
