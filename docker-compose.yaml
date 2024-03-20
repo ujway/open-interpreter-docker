@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./files:/files
+      - ./files:/app/files
     environment:
       - OPENAI_API_KEY
     command: interpreter -y --custom_instructions "Be as concise as possible"
