@@ -8,5 +8,5 @@ services:
     volumes:
       - .:/files
     environment:
-      - OPENAI_API_KEY=your-api-key
-    command: interpreter --custom_instructions "Be as concise as possible"
+      - OPENAI_API_KEY
+    command: interpreter -y --custom_instructions "Be as concise as possible"

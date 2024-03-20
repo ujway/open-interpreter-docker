@@ -9,9 +9,10 @@ This guide provides instructions on how to set up and run Open Interpreter using
 
 ## Setup
 
-Put `OPENAI_API_KEY` with your actual OpenAI API key.
-
 ```bash
+cp .env.local .env
+# Put `OPENAI_API_KEY` with your actual OpenAI API key.
+vim .env
 # Run shell to start session
 docker-compose run --rm openinterpreter
 ```
